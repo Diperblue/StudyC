@@ -9,8 +9,8 @@ char* get_string(size_t length) { // size_t = unsigned int, char* - Por que? Sim
 
 int main(int a, int b)
 {
-  char *str = get_string(25);
-  str = "testando";
-  printf("%s\n", str);
+  char *str = get_string(25); // ponteiro str recebendo o endereço de memoria alocada.
+  str = "testando"; // Adicionando os bits a memoria alocada.
+  printf("%s\n", str); // Escrevendo printf na tela
   return 0;
 }
